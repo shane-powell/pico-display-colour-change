@@ -55,7 +55,7 @@ void setTextAndLed()
     picoDisplay.set_pen(red, green, blue);
 
     // Write text to display
-    picoDisplay.text("Hello World", point(PicoDisplay::WIDTH / 100 * 30, PicoDisplay::HEIGHT / 2), PicoDisplay::WIDTH);
+    picoDisplay.text("Hello World", Point(PicoDisplay::WIDTH / 100 * 30, PicoDisplay::HEIGHT / 2), PicoDisplay::WIDTH);
     picoDisplay.update();
 
     // Set RGB led to match pen colour
